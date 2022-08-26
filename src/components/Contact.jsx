@@ -1,17 +1,5 @@
 import React from "react";
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
-import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
-import node from "../assets/node.png";
-import express from "../assets/express.png"
-import mongodb from "../assets/mongodb.png"
-import redux from "../assets/redux.png"
 
 //function for form reset
 function handleSubmit(e) {
@@ -42,7 +30,7 @@ const Contact = () => {
             action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
             className=" flex flex-col w-full md:w-1/2"
           >
-            
+
 
             {/* const Contact = () => {
               const techs = [
@@ -78,42 +66,47 @@ const Contact = () => {
             {/* <button type="submit" className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Send Message
             </button> */}
-            <br/>
+            <br />
           </form>
         </div>
 
         <div class="container text-center">
-        <h1 style={{fontSize:"30px"}}>I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React. Redux ,Rest API and NodeJs.</h1>
-            <br/>
-            <br/>
-          <div class="row" style={{gap:"1rem"}}>
+          <h1 style={{ fontSize: "30px" }}>I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React. Redux ,Rest API and NodeJs.</h1>
+          <br />
+          <br />
+          <div class="row" style={{ gap: "1rem" }}>
 
 
-            <div class="col" style={{border: "2px solid white", height:"4rem",display:"flex",justifyContent:"center",alignItems:"center"}}>
-           
-            <svg xmlns="http://www.w3.org/2000/svg" style={{height:"2.6rem",marginRight:"6px"}} class="" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
+            <div class="col" style={{ border: "2px solid white", height: "4rem", display: "flex", justifyContent: "center", alignItems: "center" }}>
 
-           <h2>Rahul Savaliya</h2> 
+              <svg xmlns="http://www.w3.org/2000/svg" style={{ height: "2.6rem", marginRight: "6px" }} class="" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+
+              <h2>Rahul Savaliya</h2>
             </div>
-            <div class="col" style={{border: "2px solid white", height:"4rem",display:"flex",justifyContent:"center",alignItems:"center"}}>
-            <svg xmlns="http://www.w3.org/2000/svg" style={{height:"2.6rem",marginRight:"6px"}} class="" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-</svg>
-           <h2>savaliyarahul813@gmail.com</h2> 
+            <div class="col" style={{ border: "2px solid white", height: "4rem", display: "flex", justifyContent: "center", alignItems: "center" }}>
+              <svg xmlns="http://www.w3.org/2000/svg" style={{ height: "2.6rem", marginRight: "6px" }} class="" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <h2>savaliyarahul813@gmail.com</h2>
             </div>
-            <div class="col" style={{border: "2px solid white", height:"4rem",display:"flex",justifyContent:"center",alignItems:"center"}}>
-            <svg xmlns="http://www.w3.org/2000/svg" style={{height:"2.6rem",marginRight:"6px"}}  class="" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-</svg>
-           <h2>+91 95372 15410</h2> 
+            <div class="col" style={{ border: "2px solid white", height: "4rem", display: "flex", justifyContent: "center", alignItems: "center" }}>
+              <svg xmlns="http://www.w3.org/2000/svg" style={{ height: "2.6rem", marginRight: "6px" }} class="" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <h2>+91 95372 15410</h2>
+
+
             </div>
+            
           </div>
+          
         </div>
 
 
       </div>
+      
     </div>
   );
 };

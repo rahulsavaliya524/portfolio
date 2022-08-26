@@ -12,37 +12,37 @@ const Portfolio = () => {
     {
       id: 1,
       src: amazon,
-      link: 'https://crypto-info-api.herokuapp.com/',
+      link: '',
       repo: 'https://github.com/rahulsavaliya524/amazon-prime-clone'
     },
     {
       id: 2,
       src: fashion,
-      link: 'https://webpostman.netlify.app/',
+      link: '',
       repo: 'https://github.com/rahulsavaliya524/fashion-cube-master'
     },
     {
       id: 3,
       src: cenema,
-      link: 'https://apodbyrahul.netlify.app/',
+      link: '',
       repo: 'https://github.com/rahulsavaliya524/i-cinema'
     },
     {
       id: 4,
       src: invoice,
-      link: 'https://waveatrahul.netlify.app/',
+      link: '',
       repo: 'https://github.com/rahulsavaliya524/invoice-generate'
     },
     {
       id: 5,
       src: salinaka,
-      link: 'https://nftportalbyrahul.netlify.app/',
+      link: '',
       repo: 'https://github.com/rahulsavaliya524/salinaka-eyes'
     },
     {
       id: 6,
       src: socialnet,
-      link: 'https://trackmyip.netlify.app/',
+      link: '',
       repo: 'https://github.com/rahulsavaliya524/social-network-master'
     },
   ];
@@ -73,6 +73,9 @@ const Portfolio = () => {
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(repo, '_blank')}>
                   GitHub
                 </button>
+                {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(link, '_blank')}>
+                  demo
+                </button> */}
               </div>
             </div>
           ))}
